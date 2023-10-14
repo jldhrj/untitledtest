@@ -19,6 +19,10 @@ public class Out02 {
         int ee= aa++;
         System.out.println(aa);
         System.out.println(ee);
+        double size = 9.8;
+        int ram=16;
+        boolean rr = size>=6.95 & ram>=16;
+        System.out.println(rr);
 
     }
 }
