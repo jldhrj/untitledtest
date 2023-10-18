@@ -23,7 +23,7 @@ public class IfDdome {
 
         System.out.println("分数？");
         double fs=sc.nextDouble();
-        if (fs>=80&&fs<100){
+        if (fs>=80&&fs<=100){
             System.out.println("优秀"+fs);
         }
         else if (fs>=60&&fs<80){
