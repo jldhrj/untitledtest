@@ -8,7 +8,7 @@ public class DoWhileDemo {
             System.out.println(b);
             i++;
             b++;
-        }while (i<5f);//false and true
+        }while (i<5);//false and true
 
     }
 }
