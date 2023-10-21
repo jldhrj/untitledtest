@@ -7,7 +7,7 @@ public class RandomDemo {
     public static void main(String[] args) {
         Random sj = new Random();
         for (int i = 1; i < 5; i++) {
-            int number = sj.nextInt(11);
+            int number = sj.nextInt(11,12);//1,20,
             System.out.println(number);
         }
         for (int i = 1; i < 20; i++) {
