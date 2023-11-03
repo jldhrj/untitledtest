@@ -16,28 +16,22 @@ public class case03 {
     }
 
     public static double px(double[] a) {
-        double pgup = 0;
+        double pgup = a[0];
         double pgdn = a[0];
         double max = 0;
         for (int i = 0; i < a.length; i++) {
             if (pgup < a[i]) {
                 pgup = a[i];
             }
-        }
-        for (int i = 0; i < a.length; i++) {
             if (pgdn > a[i]) {
                 pgdn = a[i];
             }
-
         }
         for (int i = 0; i < a.length; i++) {
             if (pgup == a[i]) {
                 a[i] = 0;
-                break;
+                continue;
             }
-
-        }
-        for (int i = 0; i < a.length; i++) {
             if (pgdn == a[i]) {
                 a[i] = 0;
                 break;
