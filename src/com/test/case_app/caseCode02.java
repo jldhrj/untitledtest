@@ -8,6 +8,7 @@ public class caseCode02 {
 
     }
 
+
     public static String code(int ina) {
         Random ra = new Random();
         String codeback = "";

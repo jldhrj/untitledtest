@@ -2,7 +2,7 @@ package com.test.case_app;
 
 public class casePass04 {
     public static void main(String[] args) {
-        int[] a = {01, 04, 20, 50};
+        int[] a = {0, 0, 20, 50};
         System.out.println(password(a));
     }
 
