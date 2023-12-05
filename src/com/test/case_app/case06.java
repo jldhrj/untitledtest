@@ -6,7 +6,7 @@ public class case06 {
     }
 
     public static int select(int star, int end) {
-        int sum=0;
+        int sum = 0;
         for (int i = star; i <= end; i++) {
             boolean fg = true;
             for (int j = 2; j < i / 2; j++) {
@@ -19,7 +19,8 @@ public class case06 {
                 System.out.println(i);
                 sum++;
             }
-        }return sum;
+        }
+        return sum;
 
     }
 }
